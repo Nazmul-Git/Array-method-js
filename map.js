@@ -66,4 +66,4 @@ const movementDescription2 = movements.map(
 );
 console.log("movementDescription2 is", movementDescription2);
 
-// Note: Into map method inside callback function there no need to array parameter. We pass value and index into this callback parameter.And this callback return value inside the map function parameter.So we can say that, we do not call this callback function, it is the map method who will call this function for each of the array elements.
+// Note: Into map method inside callback function there no need to array parameter. We pass value and index into this callback parameter.And this callback return value inside the map function parameter.So we can say that, we do not call this callback function, it is the map method who will call this function for each of the array elements. Each time map method call callback,it return current value and current index and the whole array that's why no need to pass array in callback parameter.
