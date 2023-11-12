@@ -10,3 +10,14 @@ console.log(balance); //11720
 let balance2=0;
 for(const mov of movements) balance2 += mov;
 console.log(balance2); //11720
+
+
+
+//  another example
+const max= movements.reduce((acc,curr)=>{
+   if(acc>curr)
+     return acc;
+   else
+     return curr;
+}, movements[0]);
+console.log(max);
