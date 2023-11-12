@@ -1,3 +1,5 @@
+// FILTER RETURN A NEW ARRAY
+
 const movements = [5000, 3400, -150, -790, -3210, -1000, 8500, -30];
 
 // filter
