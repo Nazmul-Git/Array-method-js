@@ -10,3 +10,10 @@ console.log(movements.every(mov=>mov > 0)); //false
 
 const movement = [5000, 3400, 150, 790, 3210, 1000, 8500, 30];
 console.log(movement.every(mov=>mov > 0));  //true
+
+
+// /////////////////////////////////////
+const  deposit=mov=>mov > 0;
+console.log(movements.some(deposit)); //true
+console.log(movements.every(deposit)); //false
+console.log(movements.filter(deposit)); //[ 5000, 3400, 8500 ]
