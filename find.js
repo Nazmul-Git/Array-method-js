@@ -14,6 +14,7 @@ console.log(nestedArr.flat(3)); // [ 1, 2, 3, 4, 5, 6, 7, 8 ]
 const totalSum=nestedArr.map(num=>num).flat(3).reduce((acc,num)=>acc+num, 0);
 console.log(totalSum); //36
  
+// flatMap()
 const nestedArr2=[ 1, 2, 3, 4, 5, [ 6, 7 ], 8 ];
 const totalSum2=nestedArr2.flatMap(num=>num).reduce((acc,num)=>acc+num);
 console.log(totalSum2); //36
